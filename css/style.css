@@ -36,6 +36,7 @@
 body {
     font-family: 'SF UI Display', sans-serif;
     font-weight: 400;
+    color: #000;
 }
 
 .container {
@@ -128,6 +129,7 @@ body {
     padding: 4px 24px;
     font-size: 14px;
     line-height: 40px;
+    text-transform: uppercase;
     color: #fff;
     background-color: #FD665E;
     border: none;
@@ -240,4 +242,62 @@ body {
     background-position: center;
     background-repeat: no-repeat;    
     background-image: url(../img/slider/prev-arrow-dis.svg);
+}
+
+
+/* ====== features ======= */
+
+
+
+.features {
+    padding: 64px 0;
+}
+
+.features-title {
+    max-width: 459px;
+}
+
+.features-content {
+    display: flex;
+}
+
+.features__img {
+    max-width: 535px;
+}
+
+.features__img-img {
+    width: 100%;
+}
+
+.feateres-list {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.features-card {
+    max-width: 391px;    
+    display: flex;    
+    margin-bottom: 48px;
+    
+}
+
+.features-card__img {
+    margin-right: 38px;
+}
+
+.features-card__content-title {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.features-card__content-text {
+    font-size: 16px;
+    line-height: 26px;
 }
