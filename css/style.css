@@ -45,7 +45,17 @@ body {
 }
 
 
+.title-color {
+    color:#FD665E;
+}
 
+.section-title {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    font-family: 'New York Extra Large', sans-serif;
+    color: #000;
+}
 
 /* ====== header ======= */
 
@@ -124,10 +134,48 @@ body {
     outline: none;
     border-radius: 4px;
     cursor: pointer;
+    display: block;
 }
 
 .sigin-btn {
     background-color: transparent;
     color: #585858;
     margin: 0 16px;
+}
+
+
+/* ======== build ======= */
+
+
+.build {
+    padding-bottom: 48px;
+}
+
+.build-title {
+    font-size: 112px;
+    line-height: 112px; 
+    letter-spacing: -4px; 
+    font-family: 'New York Extra Large', sans-serif;
+    color: #000;  
+}
+
+.build-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.build-content__item {
+    max-width: 345px;
+    padding-right: 55px;    
+}
+
+.build-content__text {
+    font-size: 16px;
+    color: #000;
+    line-height: 26px;        
+    margin-bottom: 48px;
+}
+
+.build-img__img {
+    width: 100%;
 }
