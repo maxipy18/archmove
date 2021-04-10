@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'SF UI Display';
+    src: url(../fonts/SF-UI-Display-Bold.ttf) format('ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url(../fonts/SF-UI-Display-Medium.ttf) format('ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url(../fonts/SF-UI-Display-Regular.ttf) format('ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url(../fonts/SF-UI-Display-Light.ttf) format('ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url(../fonts/NewYorkExtraLargeBold.otf) format('opentype');
+    font-weight: 700;
+}
+                
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SF UI Display', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+
+
+
+/* ====== header ======= */
+
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+}
+
+.header-nav__item {
+    padding: 4px 24px;
+}
+
+.header-nav__link {
+    font-size: 14px;
+    line-height: 40px;
+    color: #585858;
+}
+
+.header-nav__link:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.header-control {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    width: 0;
+    border: none;
+}
+.header-search.active {
+    width: 120px;
+    border: 1px solid #585858;
+    border-radius: 4px;
+}
+.search-btn {
+    width: 26px;
+    height: 26px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.basic-btn {
+    padding: 4px 24px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #FD665E;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sigin-btn {
+    background-color: transparent;
+    color: #585858;
+    margin: 0 16px;
+}
