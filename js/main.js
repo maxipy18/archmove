@@ -11,11 +11,13 @@ $(document).ready(function(){
     });
 
     $('.feed-slider-box').slick({
-        
         infinite: false,        
         initialSlide: 0,
         prevArrow: '<button type="button" class="slick-prev feed-btn"></button>',
         nextArrow: '<button type="button" class="slick-next feed-btn"></button>',
     });
+
+
+    
 
   });

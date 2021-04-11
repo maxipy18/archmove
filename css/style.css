@@ -395,3 +395,20 @@ body {
     max-width: 521px;
     margin-bottom: 64px;
 }
+
+
+
+/* ====== partners ====== */
+
+
+.partners {
+    padding: 64px 0;
+    margin-bottom: 56px;
+}
+
+.partners-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
