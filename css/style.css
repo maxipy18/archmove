@@ -412,3 +412,38 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+
+
+/* ======= footer ======== */
+
+
+.footer {
+    padding: 90px 0;
+    border-top: 1px solid #F0F0F0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #585858;
+    margin-right: 48px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #000;
+}
