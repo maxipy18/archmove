@@ -202,7 +202,11 @@ body {
 }
 
 .slider__item {
-    margin-right: 40px;
+    margin-right: 40px;   
+}
+
+.slick-slide {
+    outline: none;
 }
 
 
@@ -300,4 +304,67 @@ body {
 .features-card__content-text {
     font-size: 16px;
     line-height: 26px;
+}
+
+
+/* ======= feedback ======= */
+
+
+.feedback {
+    padding: 64px 0;
+    background: linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
+}
+
+.feedback-title {
+    max-width: 374px;
+    margin-bottom: 46px;
+}
+
+.feed-slider-box {     
+    max-width: 875px; 
+    float: right  
+}
+
+.clear {
+    clear: both;
+}
+
+.feed-slider-box {
+    position: relative;
+}
+
+.feed-slider__item {
+    width: 100%;
+}
+
+.feed-slider__item-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.feed-slider__item-img {
+    padding-top: 30px;
+    margin-right: 52px;
+}
+
+.feedback-text {    
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 51px;
+}
+
+.user-name {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.user-position {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.feed-btn {
+    top: 85%;
+    z-index: 5;
 }
