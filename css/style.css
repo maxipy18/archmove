@@ -447,3 +447,75 @@ body {
     text-decoration: underline;
     color: #000;
 }
+
+
+/* ======= modal ======= */
+
+.modal {
+    display: none;    
+}
+
+.modal.active {
+    display: block;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-signup,
+.modal-consult {
+    display: none;
+}
+
+.modal-signup.active,
+.modal-consult.active {
+    display: block;
+    padding: 10px;
+    width: 300px;    
+    background-color: #fff;    
+    border-radius: 4px;
+}
+
+.modal-close {
+    text-align: right;
+}
+
+.close-btn {
+    cursor: pointer;
+}
+
+.modal-signup-form,
+.modal-consult-form {
+    display: flex;
+    flex-direction: column;        
+    padding: 20px;
+}
+
+.modal-signup-email,
+.modal-signup-password,
+.modal-consult-email {
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #585858;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.modal-consult-message {
+    resize: none;
+    margin-bottom: 15px;
+}

@@ -18,6 +18,41 @@ $(document).ready(function(){
     });
 
 
+    const signUpBtn = document.querySelector('.signup-btn');
+    const modal = document.querySelector('.modal');
+    const modalSignUp = document.querySelector('.modal-signup');
+    const closeBtn = document.querySelectorAll('.close-btn');
+    const searchBtn = document.querySelector('.search-btn');
+    const headerSearch = document.querySelector('.header-search');
+    const consultBtn = document.querySelectorAll('.consult-btn');
+    const modalConsult = document.querySelector('.modal-consult');
+
+
+    signUpBtn.addEventListener('click', ()=>{
+        modal.classList.add('active');
+        modalSignUp.classList.add('active');
+    });
+
+    closeBtn.forEach(item=>{
+        item.addEventListener('click', ()=>{
+            modal.classList.remove('active');
+            modalSignUp.classList.remove('active');
+            modalConsult.classList.remove('active');
+        });
+        
+    });
     
+
+    searchBtn.addEventListener('click', ()=>{
+        headerSearch.classList.toggle('active');
+    });
+
+    consultBtn.forEach(item=>{
+        item.addEventListener('click', ()=>{
+            modalConsult.classList.add('active');
+            modal.classList.add('active');
+        });
+    });
+
 
   });
