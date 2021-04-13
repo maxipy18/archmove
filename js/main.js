@@ -7,7 +7,22 @@ $(document).ready(function(){
         slidesToShow: 3,                
         initialSlide: 0,
         infinite: false,
-        variableWidth: true,        
+        variableWidth: true, 
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    variableWidth: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,                    
+                }
+            },
+        ]       
     });
 
     $('.feed-slider-box').slick({
